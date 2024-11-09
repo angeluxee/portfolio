@@ -1,5 +1,5 @@
-import taskflow from '../assets/TaskFlow.png';
-import livechatgpt from '../assets/livechatgpt.jpg';
+import taskflow from '../assets/TaskFlow.webp';
+import livechatgpt from '../assets/livechatgpt.webp';
 import { Project } from './Project';
 
 export const Projects = () => {

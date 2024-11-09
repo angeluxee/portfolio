@@ -1,4 +1,4 @@
-import Angel from '../assets/angel.png'
+import Angel from '../assets/angel.webp'
 
 export const About = () => {
     return (

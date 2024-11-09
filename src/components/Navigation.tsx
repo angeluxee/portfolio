@@ -16,6 +16,7 @@ export const Navigation = () => {
                 <button 
                     className='ml-auto sm:hidden'
                     onClick={() => setIsOpen(!isOpen)}
+                    aria-label="Dropdown Menu"
                 >
                     {isOpen ? (
                         <svg className="w-10 h-10 fill-white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
