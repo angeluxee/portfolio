@@ -9,7 +9,8 @@ export default {
       colors: {
         'titles': '#ffedcb',
         'github': '#c6b595',
-        'deploy': '#c2fcf2'
+        'deploy': '#c2fcf2',
+        'icons': '#585858'
       }
     },
     fontFamily: {

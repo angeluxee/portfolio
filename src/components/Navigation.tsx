@@ -38,13 +38,13 @@ export const Navigation = () => {
                         <a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>About</a>
                     </li>
                     <li className="transition duration-500 hover:text-white">
-                        <a href="#skills" onClick={(e) => { e.preventDefault(); scrollToSection('skills'); }}>Skills</a>
+                        <a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contact</a>
                     </li>
                 </ul>
             </div>
             <div className={`fixed top-[72px] left-0 w-full transition-all duration-300 ease-in-out bg-black/70 backdrop-blur-sm transform ${isOpen ? 'opacity-100 translate-y-0 visible' : 'opacity-0 -translate-y-2 invisible pointer-events-none'} sm:hidden`}>
                 <ul className="space-y-2 font-semibold p-4 text-gray-300">
-                    {['Home', 'Projects', 'About', 'Skills'].map(item => (
+                    {['Home', 'Projects', 'About', 'Contact'].map(item => (
                         <li key={item}>
                             <a 
                                 href={`#${item.toLowerCase()}`} 
