@@ -15,7 +15,7 @@ export const ContactForm = () => {
   const [result, setResult] = useState<string | null>(null);
 
   const accessKey = "79ac2d5b-1edc-436a-b1a6-cff1fc913eb4";
-
+  console.log(isSuccess)
   const { submit: onSubmit } = useWeb3Forms<FormData>({
     access_key: accessKey,
     settings: {
