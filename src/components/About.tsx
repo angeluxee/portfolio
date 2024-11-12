@@ -14,15 +14,14 @@ export const About = () => {
             
             <article className="text-white lg:text-lg mt-4 relative">
                 <img 
-                    className="float-left rounded-full w-48 h-48 object-cover border-2 border-titles mr-6 mb-4 [shape-outside:circle(50%)]"
+                    className="float-left rounded-full w-32 h-32 lg:w-48 lg:h-48 object-cover border-2 border-titles mr-6 mb-4 [shape-outside:circle(50%)]"
                     src={Angel}
                     alt="Àngel Camuña's avatar"
                 />
                 <div>
-                    <p className='mb-4'>Hello! I'm Àngel Camuña. As a developer, I constantly strive to learn and stay updated. Recently, I completed my second year of studies in Web Application Development, and I'm now focused on enhancing my skills in technologies like JavaScript, React, Python, and frameworks such as Flask and Django.</p>
-                    <p className='mb-4'>I'm actively seeking my first role as a developer to launch and grow my career. Feel free to reach out!</p>
-                    <p className='mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos excepturi nesciunt numquam id nulla aliquam natus similique voluptatem iste ut doloribus sequi quaerat pariatur, magni, aliquid adipisci fugiat. Id, quae!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos excepturi nesciunt numquam id nulla aliquam natus similique voluptatem iste ut doloribus sequi quaerat pariatur, magni, aliquid adipisci fugiat. Id, quae!</p>
+                    <p className='mb-4'>Hello! I'm Ángel Camuña. As a developer, I constantly strive to learn and stay updated. Recently, I completed my second year of studies in Web Application Development, and I'm now focused on enhancing my skills in technologies like JavaScript, React, Python, and frameworks such as Flask and Django.</p>
+                    <p className='mb-4'>During my studies, I developed a strong foundation in front-end and back-end development. I’ve worked on projects involving database management, API integrations, and responsive design. I enjoy solving problems and am driven by the challenge of creating user-friendly applications.</p>
+                    <p>I'm actively seeking my first role as a developer to launch and grow my career. Feel free to reach out!</p>
                 </div>
             </article>
         </section>

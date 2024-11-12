@@ -24,7 +24,7 @@ export const Projects = () => {
                 text="A simplified Trello-style application, developed using Flask for the backend, React for the frontend, JWT for authentication, and MongoDB for data storage. It allows users to register, create, and manage boards with lists and tasks, offering a visual organization experience similar to Trello." 
                 photo={taskflow} 
                 skills={['React', 'Flask', 'MongoDB', 'JWT', 'Tailwind CSS', 'Python', 'JavaScript']}
-                github='https://github.com/angeluxee'
+                github='https://github.com/angeluxee/taskflow'
                 gitlab='https://gitlab.com/devluxe/taskflow'
                 deploy='https://taskflow-frontend-eta.vercel.app/'
             />
@@ -34,7 +34,7 @@ export const Projects = () => {
                 text="A real-time chat application developed with Node.js, Express, Socket.IO, MongoDB, and Docker. It allows interaction between users and optionally with an artificial intelligence model (ChatGPT)." 
                 photo={livechatgpt} 
                 skills={['Node.js', 'Socket.io', 'Express.js', 'MongoDB', 'Docker', 'HTML5', 'CSS']} 
-                github=''
+                github='https://github.com/angeluxee/LiveChat-GPT'
                 gitlab='https://gitlab.com/devluxe/livechat-gpt'
                 deploy=''
             />
@@ -42,8 +42,8 @@ export const Projects = () => {
                 title="Laravel Netflix 'Clone'" 
                 text="Netflix-style web application for consuming multimedia content (series and movies) developed with PHP Laravel and MySQL." 
                 photo={'https://www.jacksonsquareshopping.co.uk/wp-content/uploads/2016/12/placeholder-1920x1080-copy.png'} 
-                skills={['Laravel', 'MySQL', 'Docker', 'PHP', 'JQUERY']} 
-                github=''
+                skills={['Laravel', 'MySQL', 'Docker', 'PHP', 'jQuery']} 
+                github='https://github.com/angeluxee/Laravel-Netflix-Clone'
                 gitlab='https://gitlab.com/devluxe/laravel-netflix-clone'
                 deploy=''
             />

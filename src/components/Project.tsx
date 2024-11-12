@@ -42,7 +42,7 @@ export const Project = ({ title, text, photo, skills, github, gitlab, deploy }: 
                         {gitlab && (
                             <a 
                                 className="bg-black hover:bg-gray-900 border-2 border-gray-300 p-2 rounded-lg transform transition-all duration-300 hover:scale-110 hover:shadow-lg"
-                                href={deploy}
+                                href={gitlab}
                                 target="_blank"
                                 aria-label="Gitlab Profile"
                             > 
