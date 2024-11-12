@@ -1,5 +1,6 @@
 import taskflow from '../assets/TaskFlow.webp';
 import livechatgpt from '../assets/livechatgpt.webp';
+import portfolio from '../assets/portfolio.webp';
 import { Project } from './Project';
 
 export const Projects = () => {
@@ -45,6 +46,15 @@ export const Projects = () => {
                 skills={['Laravel', 'MySQL', 'Docker', 'PHP', 'jQuery']} 
                 github='https://github.com/angeluxee/Laravel-Netflix-Clone'
                 gitlab='https://gitlab.com/devluxe/laravel-netflix-clone'
+                deploy=''
+            />
+            <Project 
+                title="Personal Portfolio" 
+                text="My personal portfolio developed with react" 
+                photo={portfolio} 
+                skills={['React', 'TypeScript']} 
+                github='https://github.com/angeluxee/portfolio'
+                gitlab=''
                 deploy=''
             />
             </div>
